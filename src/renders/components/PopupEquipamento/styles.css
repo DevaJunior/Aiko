@@ -1,0 +1,80 @@
+.map-container {
+  height: 600px;
+  width: 100%;
+}
+
+.popup-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  width: fit-content;
+  color: #333;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 40vh;
+  overflow: auto;
+}
+
+.popup-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.popup-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.popup-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.popup-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.popup-content h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.popup-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.popup-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.popup-content .historico-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  width: fit-content;
+  max-height: 60%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.popup-content .historico-item {
+  padding: 8px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
